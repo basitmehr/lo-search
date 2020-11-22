@@ -8,8 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.lo.search.runner.CityRunner;
 
 @SpringBootApplication
-public class ApplicationMain implements CommandLineRunner {
-	
+public class ApplicationMain implements CommandLineRunner {	
 	
 	@Autowired
 	CityRunner cityRunner;
